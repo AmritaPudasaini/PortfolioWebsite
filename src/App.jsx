@@ -1,8 +1,10 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Code, GraduationCap, Briefcase, Terminal } from 'lucide-react';
+import profileImg from './assets/profile.jpg';
 import receptionRobotImg from './assets/receptionrobot.jpg';
 import roboSoccerImg from './assets/robosoccer.jpg';
-import taskmanagementImg from './assets/taskmanagement.jpg';
+import Python from './assets/python.jpg';
+import Django from './assets/django.jpg';
 
 const App = () => {
   const projects = [
@@ -18,7 +20,7 @@ const App = () => {
       description: "The Task Management Application is a Python-based command-line tool that allows users to manage their tasks. It provides basic functionality for adding, listing, and removing tasks, along with tracking their completion status. Tasks are stored in a JSON file (tasks.json), making it easy to load and save data between sessions. This simple tool aims to help users stay organized by managing tasks efficiently.",
       technologies: ["Python", "Pytest"],
       link: "https://github.com/AmritaPudasaini/CS50-Python/tree/main/124330256/project",
-      image: taskmanagementImg
+      image: Python
     },
     {
       title: "Robo Soccer",
@@ -26,7 +28,21 @@ const App = () => {
       technologies: ["ESP 32", "Motor Driver", "C++", "FlySky FS-i6"],
       link: "",
       image: roboSoccerImg
-    }
+    },
+    {
+      title: "Clustering Political Campaign Using Python",
+      description: "Clustering Political Campaign of the Recent Election of Nepal using k-means and dbscan (unsupervised machine learning algorithms).",
+      technologies: ["Python", "K-means", "DBSCAN", "Matplotlib", "Pandas"],
+      link: "https://github.com/AmritaPudasaini/Python-Clustering-Political-Campaign",
+      image: Python
+    },
+    {
+      title: "Aarogya Health Application (labResult)",
+      description: "Built using Python and Django, this module handles the management and retrieval of patients' lab results. It provides a secure and efficient backend API for lab result data.",
+      technologies: ["Python", "Django", "REST API"],
+      link: "https://github.com/AmritaPudasaini/Arogya_Backend_LabResult",
+      image: Django
+    },
   ];
 
   const education = [
@@ -119,7 +135,7 @@ const App = () => {
             <div className="md:w-1/2 flex justify-center">
               <div className="relative">
                 <div className="w-64 h-64 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full overflow-hidden shadow-2xl">
-                  <div className="bg-gray-300 border-2 border-dashed rounded-xl w-full h-full" />
+                  <img src={profileImg} alt="Amrita Pudasaini" className="w-full h-full object-cover" />
                 </div>
                 <div className="absolute -bottom-4 -right-4 bg-white rounded-full p-3 shadow-lg">
                   <Code className="text-blue-600" size={24} />
