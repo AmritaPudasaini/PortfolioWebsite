@@ -7,7 +7,7 @@ const App = () => {
       title: "IoT Reception Robot",
       description: "An autonomous robot designed to navigate office environments, greet visitors, and provide information of colleges.",
       technologies: ["Python", "ESP8266", "Motor Driver", "Raspberry Pi"],
-      link: "#"
+      link: ""
     },
     {
       title: "Task Management App",
@@ -19,7 +19,7 @@ const App = () => {
       title: "Robo Soccer",
       description: "Remote controlled bots that plays football",
       technologies: ["ESP 32", "Motor Driver", "C++", "FlySky FS-i6"],
-      link: "#"
+      link: ""
     }
   ];
 
@@ -49,13 +49,7 @@ const App = () => {
       role: "Research and Development Intern",
       company: "Robotics Association of Nepal",
       period: "2025 - Present",
-      description: "Leading development of scalable microservices architecture. Mentoring junior developers and implementing CI/CD pipelines."
-    },
-    {
-      role: "",
-      company: "",
-      period: "",
-      description: ""
+      description: "Focuses on designing and improving robotic technologies and solutions for local and practical applications."
     },
   ];
 
@@ -99,7 +93,7 @@ const App = () => {
                 AI/ML & Robotics Enthusiast
               </h2>
               <p className="text-lg text-gray-600 mb-8 max-w-lg">
-                Passionate about building scalable software solutions and exploring the intersection of AI and robotics to create innovative applications.
+                Passionate about building scalable IoT solutions and exploring the intersection of AI and robotics to create innovative applications that can be used in real-life.
               </p>
               <div className="flex space-x-4">
                 <a 
@@ -150,7 +144,7 @@ const App = () => {
                 you'll find me contributing to open-source projects, reading tech blogs, or exploring new hiking trails.
               </p>
               <div className="flex flex-wrap gap-2">
-                {['JavaScript', 'TypeScript', 'React', 'Node.js', 'Python', 'AWS', 'Docker', 'GraphQL'].map((tech) => (
+                {['Python', 'Microcontrollers', 'React', 'Networking', 'SQL', 'HTML', 'CSS', 'GitHub', 'Packet Tracer', 'DBMS'].map((tech) => (
                   <span 
                     key={tech} 
                     className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm"
@@ -166,8 +160,8 @@ const App = () => {
               <div className="space-y-3">
                 <div>
                   <div className="flex justify-between text-sm text-gray-600 mb-1">
-                    <span>Frontend</span>
-                    <span>Expert</span>
+                    <span>Microcontroller</span>
+                    <span>Intermediate</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div className="bg-blue-600 h-2 rounded-full" style={{width: '95%'}}></div>
@@ -175,8 +169,8 @@ const App = () => {
                 </div>
                 <div>
                   <div className="flex justify-between text-sm text-gray-600 mb-1">
-                    <span>Backend</span>
-                    <span>Advanced</span>
+                    <span>Hardware</span>
+                    <span>Intermediate</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div className="bg-blue-600 h-2 rounded-full" style={{width: '90%'}}></div>
@@ -184,8 +178,8 @@ const App = () => {
                 </div>
                 <div>
                   <div className="flex justify-between text-sm text-gray-600 mb-1">
-                    <span>DevOps</span>
-                    <span>Intermediate</span>
+                    <span>C/C++</span>
+                    <span>Basic</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div className="bg-blue-600 h-2 rounded-full" style={{width: '75%'}}></div>
@@ -193,8 +187,8 @@ const App = () => {
                 </div>
                 <div>
                   <div className="flex justify-between text-sm text-gray-600 mb-1">
-                    <span>Database</span>
-                    <span>Advanced</span>
+                    <span>Python</span>
+                    <span>Intermediate</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div className="bg-blue-600 h-2 rounded-full" style={{width: '85%'}}></div>
@@ -335,7 +329,7 @@ const App = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="text-2xl font-bold mb-4">Amrita Pudasaini</div>
-            <p className="text-gray-400 mb-6">Software Engineer & Full-Stack Developer</p>
+            <p className="text-gray-400 mb-6">AI/ML & Robotics Enthusiast</p>
             <div className="flex justify-center space-x-6 mb-8">
               <a href="https://github.com" className="text-gray-400 hover:text-white transition-colors">
                 <Github size={24} />
