@@ -1,5 +1,8 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Code, GraduationCap, Briefcase, Terminal } from 'lucide-react';
+import receptionRobotImg from './assets/receptionrobot.jpg';
+import roboSoccerImg from './assets/robosoccer.jpg';
+import taskmanagementImg from './assets/taskmanagement.jpg';
 
 const App = () => {
   const projects = [
@@ -7,19 +10,22 @@ const App = () => {
       title: "IoT Reception Robot",
       description: "An autonomous robot designed to navigate office environments, greet visitors, and provide information of colleges.",
       technologies: ["Python", "ESP8266", "Motor Driver", "Raspberry Pi"],
-      link: ""
+      link: "",
+      image: receptionRobotImg
     },
     {
       title: "Task Management App",
       description: "The Task Management Application is a Python-based command-line tool that allows users to manage their tasks. It provides basic functionality for adding, listing, and removing tasks, along with tracking their completion status. Tasks are stored in a JSON file (tasks.json), making it easy to load and save data between sessions. This simple tool aims to help users stay organized by managing tasks efficiently.",
       technologies: ["Python", "Pytest"],
-      link: "#"
+      link: "https://github.com/AmritaPudasaini/CS50-Python/tree/main/124330256/project",
+      image: taskmanagementImg
     },
     {
       title: "Robo Soccer",
       description: "Remote controlled bots that plays football",
       technologies: ["ESP 32", "Motor Driver", "C++", "FlySky FS-i6"],
-      link: ""
+      link: "",
+      image: roboSoccerImg
     }
   ];
 
@@ -73,7 +79,7 @@ const App = () => {
               <a href="https://www.linkedin.com/in/amrita-pudasaini-696700259/" className="text-gray-600 hover:text-gray-900 transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="pudasaineeamrita7@gmail.com.com" className="text-gray-600 hover:text-gray-900 transition-colors">
+              <a href="mailto:pudasaineeamrita7@gmail.com" className="text-gray-600 hover:text-gray-900 transition-colors">
                 <Mail size={20} />
               </a>
             </div>
@@ -103,7 +109,7 @@ const App = () => {
                   View My Work
                 </a>
                 <a 
-                  href="pudasaineeamrita7@gmail.com" 
+                  href="mailto:pudasaineeamrita7@gmail.com" 
                   className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-colors"
                 >
                   Get In Touch
@@ -237,8 +243,12 @@ const App = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500">
-                  <div className="bg-gray-300 border-2 border-dashed rounded-xl w-full h-full" />
+                <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500 overflow-hidden">
+                  {project.image ? (
+                    <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+                  ) : (
+                    <div className="bg-gray-300 border-2 border-dashed rounded-xl w-full h-full" />
+                  )}
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">{project.title}</h3>
@@ -305,7 +315,7 @@ const App = () => {
             </p>
             <div className="flex justify-center space-x-6">
               <a 
-                href="pudasaineeamrita7@gmail.com" 
+                href="mailto:pudasaineeamrita7@gmail.com" 
                 className="bg-white text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors"
               >
                 Send Email
@@ -334,7 +344,7 @@ const App = () => {
               <a href="https://www.linkedin.com/in/amrita-pudasaini-696700259/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="pudasaineeamrita7@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:pudasaineeamrita7@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={24} />
               </a>
             </div>
