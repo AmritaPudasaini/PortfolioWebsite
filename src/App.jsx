@@ -135,13 +135,10 @@ const App = () => {
             <div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">My Journey</h3>
               <p className="text-gray-600 mb-4">
-                I'm a passionate software engineer with over 5 years of experience building web applications and scalable systems. 
-                My journey in tech started with a curiosity about how things work, which evolved into a deep love for creating 
-                solutions that make a real impact.
+                  Hello! I’m Amrita Pudasaini, a passionate technology enthusiast with a keen interest in Artificial Intelligence, Machine Learning, Robotics, and the Internet of Things (IoT). I enjoy exploring how emerging technologies can be applied to solve real-world problems and improve lives. I have hands-on experience in building smart systems and intelligent solutions, combining software and hardware to create innovative projects.
               </p>
               <p className="text-gray-600 mb-6">
-                I believe in writing clean, maintainable code and continuously learning new technologies. When I'm not coding, 
-                you'll find me contributing to open-source projects, reading tech blogs, or exploring new hiking trails.
+                I am always eager to learn, experiment, and collaborate on projects that push the boundaries of technology. My goal is to leverage my skills to contribute to the tech community and create solutions that have a meaningful impact.
               </p>
               <div className="flex flex-wrap gap-2">
                 {['Python', 'Microcontrollers', 'React', 'Networking', 'SQL', 'HTML', 'CSS', 'GitHub', 'Packet Tracer', 'DBMS'].map((tech) => (
@@ -331,10 +328,10 @@ const App = () => {
             <div className="text-2xl font-bold mb-4">Amrita Pudasaini</div>
             <p className="text-gray-400 mb-6">AI/ML & Robotics Enthusiast</p>
             <div className="flex justify-center space-x-6 mb-8">
-              <a href="https://github.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/AmritaPudasaini" className="text-gray-400 hover:text-white transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/amrita-pudasaini-696700259/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={24} />
               </a>
               <a href="pudasaineeamrita7@gmail.com" className="text-gray-400 hover:text-white transition-colors">
