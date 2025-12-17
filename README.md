@@ -1,16 +1,41 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 About
 
-Currently, two official plugins are available:
+**PortfolioWebsite** is a personal portfolio web application built to showcase your work, skills, and contact information. It was created to be hosted under a `.np` domain and serve as a professional presence on the web. :contentReference[oaicite:1]{index=1}
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project helps you present your profile, projects, and experience to potential employers, clients, and collaborators in a clean and interactive way.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Why It Was Made
 
-## Expanding the ESLint configuration
+- To give a **professional online presence** and share your work with the world.
+- To provide a **central place for your projects, skills, and contact info**.
+- To improve your web development skills by implementing a real-world React + Vite project.
+- To deploy a fast, responsive portfolio to a custom domain (e.g., `.np` domain).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+✔ Clean and responsive **UI layout**  
+✔ Sections to showcase **projects**, **skills**, and **about you**  
+✔ **Contact form / links** (email/socials)  
+✔ Fast and optimized with **React + Vite**  
+✔ Ready to deploy to GitHub Pages, Netlify, Vercel, or a custom domain  
+
+---
+
+## 🛠️ Technology Used
+
+| Layer | Technology |
+|-------|------------|
+| Frontend Framework | **React** |
+| Build Tool | **Vite** |
+| Styling | **Tailwind CSS** |
+| JavaScript | ES6+ |
+| Deployment | GitHub Pages / Custom `.np` domain |
+
+These technologies provide a modern, fast, and scalable foundation for your portfolio site. :contentReference[oaicite:2]{index=2}
+
