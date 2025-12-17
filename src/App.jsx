@@ -24,7 +24,7 @@ const App = () => {
     },
     {
       title: "Robo Soccer",
-      description: "Remote controlled bots that plays football",
+      description: "Remote controlled bots that plays soccer using FlySky FS-i6 controller.",
       technologies: ["ESP 32", "Motor Driver", "C++", "FlySky FS-i6"],
       link: "",
       image: roboSoccerImg
