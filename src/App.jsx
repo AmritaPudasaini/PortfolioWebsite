@@ -6,6 +6,7 @@ import roboSoccerImg from './assets/robosoccer.jpg';
 import Python from './assets/python.jpg';
 import Django from './assets/django.jpg';
 
+
 const App = () => {
   const projects = [
     {
