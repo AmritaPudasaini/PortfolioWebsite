@@ -2,7 +2,7 @@
 
 ## 🌟 About
 
-**PortfolioWebsite** is a personal portfolio web application built to showcase your work, skills, and contact information. It was created to be hosted under a `.np` domain and serve as a professional presence on the web. :contentReference[oaicite:1]{index=1}
+**PortfolioWebsite** is a personal portfolio web application built to showcase your work, skills, and contact information. It was created to be hosted under a `.np` domain and serve as a professional presence on the web.
 
 This project helps you present your profile, projects, and experience to potential employers, clients, and collaborators in a clean and interactive way.
 
@@ -23,7 +23,7 @@ This project helps you present your profile, projects, and experience to potenti
 ✔ Sections to showcase **projects**, **skills**, and **about you**  
 ✔ **Contact form / links** (email/socials)  
 ✔ Fast and optimized with **React + Vite**  
-✔ Ready to deploy to GitHub Pages, Netlify, Vercel, or a custom domain  
+✔ Ready to deploy to Vercel.  
 
 ---
 
@@ -37,5 +37,5 @@ This project helps you present your profile, projects, and experience to potenti
 | JavaScript | ES6+ |
 | Deployment | GitHub Pages / Custom `.np` domain |
 
-These technologies provide a modern, fast, and scalable foundation for your portfolio site. :contentReference[oaicite:2]{index=2}
+These technologies provide a modern, fast, and scalable foundation for your portfolio site.
 
